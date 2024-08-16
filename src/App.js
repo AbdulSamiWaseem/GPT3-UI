@@ -3,7 +3,6 @@ import {Article,Brand,CTA,Navbar,Feature} from './components/index'
 import {Header,Footer,Features,WhatGPT3,Possibility,Blog} from './containers'
 import './app.css'
 function App(){
-    console.log('hello')
     return(
    <div className='App'>
     <div className='bg_gradient'>
