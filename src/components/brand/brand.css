@@ -1,0 +1,43 @@
+.gpt3__brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gpt3__brands div{
+    flex: 1;
+    max-width: 6rem;
+    min-width: 3rem;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    
+}
+.gpt3__brands div img{
+    width: 100%;
+}
+@media screen and (min-width:490px) {
+    .gpt3__brands div{
+        html{
+            font-size: 12px;
+
+        }
+        
+    }
+    
+}
+@media screen and (min-width:750px) {
+    .gpt3__brands div{
+        html{
+            font-size: 14px;
+
+        }
+        
+    }
+    
+}
+
+
